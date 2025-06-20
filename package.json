@@ -19,7 +19,8 @@
     "react-modal": "^3.16.3",
     "react-redux": "^9.2.0",
     "sass": "^1.89.2",
-    "swiper": "^11.2.8"
+    "swiper": "^11.2.8",
+    "webpack": "^5.99.9"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
