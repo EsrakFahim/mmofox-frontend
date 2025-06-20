@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useMemo } from 'react';
 import { Controller, RedFire, SearchIcon } from '../Icons/Icons';
 import Image from 'next/image';
+import gameImage from "@/public/Test/token.png"
 
 type SearchBarProps = {
       searchbarOpen: boolean;
@@ -141,7 +142,7 @@ const SearchBar = ({ searchbarOpen, setSearchbarOpen }: SearchBarProps) => {
                                                                         `}
                                                             >
                                                                   <Image
-                                                                        src="/test/token.png"
+                                                                        src={gameImage}
                                                                         alt={game}
                                                                         width={25}
                                                                         height={25}
@@ -184,7 +185,7 @@ const SearchBar = ({ searchbarOpen, setSearchbarOpen }: SearchBarProps) => {
                                                                         `}
                                                                   >
                                                                         <Image
-                                                                              src="/test/token.png"
+                                                                              src={gameImage}
                                                                               alt={game}
                                                                               width={25}
                                                                               height={25}
