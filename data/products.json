@@ -1,0 +1,84 @@
+{
+      "hotSale": [
+            { "title": "FFXIV Gil", "image": "/Test/game.png" },
+            { "title": "Diablo 4 Gold", "image": "/Test/game.png" },
+            { "title": "WoW SoD Gold US", "image": "/Test/game.png" },
+            { "title": "FC 25 Coins", "image": "/Test/game.png" },
+            { "title": "Archeage Gold", "image": "/Test/game.png" },
+            {
+                  "title": "Dungeonborne Gold",
+                  "image": "/Test/game.png"
+            }
+      ],
+      "token": [
+            "Skull And Bones Silver",
+            "Dark Souls Remastered",
+            "Elden Ring Online",
+            "WoW: Dragonflight",
+            "NBA 2K24 Draft"
+      ],
+      "server": {
+            "region": [
+                  {
+                        "key": "us-east",
+                        "label": "US East",
+                        "city": [
+                              {
+                                    "key": "ny",
+                                    "label": "New York",
+                                    "multiplier": 1.0
+                              },
+                              {
+                                    "key": "la",
+                                    "label": "Los Angeles",
+                                    "multiplier": 1.05
+                              },
+                              {
+                                    "key": "chi",
+                                    "label": "Chicago",
+                                    "multiplier": 0.95
+                              }
+                        ]
+                  },
+                  {
+                        "key": "eu-west",
+                        "label": "EU West",
+                        "city": [
+                              {
+                                    "key": "lon",
+                                    "label": "London",
+                                    "multiplier": 1.1
+                              },
+                              {
+                                    "key": "fra",
+                                    "label": "Frankfurt",
+                                    "multiplier": 1.0
+                              },
+                              {
+                                    "key": "ams",
+                                    "label": "Amsterdam",
+                                    "multiplier": 0.9
+                              }
+                        ]
+                  }
+            ]
+      },
+      "categories": [
+            { "key": "gold", "label": "Gold", "icon": "/Test/token.png" },
+            { "key": "wow", "label": "WoW", "icon": "/Test/token.png" },
+            { "key": "nba", "label": "NBA", "icon": "/Test/token.png" },
+            { "key": "ffxiv", "label": "FFXIV", "icon": "/Test/token.png" }
+      ],
+      "quantityPacks": [
+            { "label": "500G", "value": 500, "bonus": 0 },
+            { "label": "1000G", "value": 1000, "bonus": 20 },
+            { "label": "2000G", "value": 2000, "bonus": 0 },
+            { "label": "3000G", "value": 3000, "bonus": 5 },
+            { "label": "4000G", "value": 4000, "bonus": 0 }
+      ],
+      "notifications": [
+            "🔥 Summer Sale: Up to 30% off on all Gold packs!",
+            "⚡️ Flash Deal: 1000G +20% bonus for the next 2 hours!",
+            "✅ New Game Added: Elden Ring Runes now available!"
+      ]
+}
