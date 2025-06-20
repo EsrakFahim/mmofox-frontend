@@ -18,7 +18,7 @@ const HotGames = () => {
                         {/* More Games Button aligned right */}
                         <div className="absolute right-0">
                               <Link href="/games">
-                                    <button className="text-textPrimary text-sm sm:text-lg font-semibold hover:underline">
+                                    <button className="text-textPrimary text-sm sm:text-lg font-semibold hover:underline flex items-center gap-2">
                                           More Games
                                           <RightArrow />
                                     </button>

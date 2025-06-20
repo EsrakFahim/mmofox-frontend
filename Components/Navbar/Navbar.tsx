@@ -44,7 +44,7 @@ export default function Navbar() {
 
       return (
             <>
-                  <header className="w-full h-[60px] bg-navigationBar text-white px-4 sm:px-8 shadow-md fixed top-0 left-0 z-50">
+                  <header className="w-full h-[60px] bg-navigationBar text-white px-4 sm:px-8 shadow-md relative top-0 left-0 z-50">
                         <nav className="max-w-7xl mx-auto flex items-center justify-between h-full relative">
                               {/* Mobile Hamburger */}
                               <button

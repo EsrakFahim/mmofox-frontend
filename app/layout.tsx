@@ -32,7 +32,11 @@ export default function RootLayout({
       >
         <ProviderWrapper>
           <Navbar />
-          {children}
+          <div
+            className="min-h-screen"
+          >
+            {children}
+          </div>
           <Footer />
         </ProviderWrapper>
       </body>

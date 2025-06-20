@@ -19,6 +19,7 @@ import UserIcon from "../_Icons_/user.png";
 import PhoneIcon from "../_Icons_/phone.png";
 import RedFireIcon from "../_Icons_/red_fire.png";
 import ControllerIcon from "../_Icons_/controller.png";
+import UpArrowIcon from "../_Icons_/up-arrow.png";
 
 
 
@@ -105,4 +106,8 @@ export function RedFire(props: Omit<ImageProps, 'src' | 'alt'>) {
 
 export function Controller(props: Omit<ImageProps, 'src' | 'alt'>) {
       return <Image src={ControllerIcon} alt="Controller Icon" {...props} />;
+}
+
+export function UpArrow(props: Omit<ImageProps, 'src' | 'alt'>) {
+      return <Image src={UpArrowIcon} alt="Up Arrow Icon" {...props} />;
 }
